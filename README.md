@@ -7,6 +7,9 @@ This is an individual work for course BUDT758B's final project contributed by Ch
 ## Content of this repo:
 
 ## How to run:
+### Data processing
+Use image_format_process.py to resize and crop your images
+
 ### neural-style-transfer train: 
 python neural-style-transfer/neural_style.py train --dataset 'your dataset location' --style-image 'yourlocation' --save-model-dir 'your model location' --epochs 100 --cuda 1
 ### neural-style-transfer test: 
