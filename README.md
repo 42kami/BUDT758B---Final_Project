@@ -2,7 +2,7 @@
 # Real Face Image to Anime Style Translation Using CycleGAN
 
 ## Intro:
-    This is an individual work for course BUDT758B's final project contributed by Chongwen Sun. Basically, it focuses on implementing cycleGAN method on converting real face images to anime style images.
+This is an individual work for course BUDT758B's final project contributed by Chongwen Sun. Basically, it focuses on implementing cycleGAN method on converting real face images to anime style images.
 
 ## Content of this repo:
 
@@ -15,3 +15,9 @@ python neural-style-transfer/neural_style.py eval --content-image 'your style im
 python cyclegan/train.py --dataroot 'your datasets' --name cyclegan --model cycle_gan
 ### cyclegan test:
 python cyclegan/test.py --dataroot 'your datasets' --name cyclegan --model cycle_gan
+
+The neural-style-transfer model is forked from https://github.com/floydhub/fast-neural-style
+The cyclegan model is forked from https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+
+Training dataset is a subset of the Anime-Face-Dataset: https://github.com/bchao1/Anime-Face-Dataset
+Testing dataset is a subset of the Large-scale CelebFaces Attributes (CelebA) Dataset: http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
