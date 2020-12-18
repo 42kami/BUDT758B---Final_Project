@@ -16,10 +16,13 @@ python cyclegan/train.py --dataroot 'your datasets' --name cyclegan --model cycl
 ### cyclegan test:
 python cyclegan/test.py --dataroot 'your datasets' --name cyclegan --model cycle_gan
 
+## Models
 ### The neural-style-transfer model 
 The neural-style-transfer model is forked from https://github.com/floydhub/fast-neural-style
 ### The cyclegan model 
 The cyclegan model is forked from https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+
+## Datasets
 ### Training dataset 
 The training dataset is a subset of the Anime-Face-Dataset: https://github.com/bchao1/Anime-Face-Dataset
 ### Testing dataset
